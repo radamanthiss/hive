@@ -5,7 +5,7 @@ $encode = rawurlencode($summoner);
 //variable recogida con servidor especifico
 $server = $_POST['server'];
 //key de la api para realizar las consultas
-$key = "RGAPI-e315a02d-4359-4b19-980c-994a7c806376";
+$key = "RGAPI-d8312946-f69e-4842-85ee-4e48aef40975";
 
 //url de consulta
 $url = "https://".$server.".api.riotgames.com/lol/summoner/v3/summoners/by-name/".$encode."?api_key=".$key."";

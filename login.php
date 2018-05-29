@@ -52,7 +52,7 @@ if (isset($_POST['login'])) {
 				<span class="icon-bar"></span>
 				<span class="icon-bar"></span>
 			</button>
-			<a class="navbar-brand" href="index.php" style="font-family: 'Lobster', cursive;">devHuayra</a>
+			<a class="navbar-brand" href="index.php" style="font-family: 'Lobster', cursive;">HIVE</a>
 		</div>
 		<!-- menu items -->
 		<div class="collapse navbar-collapse" id="navbar1">
