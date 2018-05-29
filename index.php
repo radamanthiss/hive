@@ -30,7 +30,7 @@ function masteryChamps($summoner_id,$key,$server){
     $i = 0;
     $champ_array = array();
     foreach ($array_mastery as $clave => $champ) {
-        if ($i < 3) {
+        if ($i < 2) {
             $champ_array[$clave]['championId'] = $champ->championId;
             $champ_array[$clave]['championLevel'] = $champ->championLevel;
             $champ_array[$clave]['championPointsSinceLastLevel'] = $champ->championPointsSinceLastLevel;
