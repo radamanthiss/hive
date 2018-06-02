@@ -25,9 +25,10 @@ foreach ($item_data['data'] as $key => $item){
                 foreach($block['items'] as $item){
                     //var_dump("<pre>");
                     //var_dump($item);
-                    $objects[$fase]["item_".$i.""] = $item[$key]['id'];
+                    $objects[$fase]["item"][] = $item['id'];
                     //$block[$fase]['item2'] = $block['bloks'][$fase]['items'][1]['id'];
                     $data[$key]['items'] = $objects;
+                    //var_dump($objects);
                 }
             }
             //var_dump("<pre>");
