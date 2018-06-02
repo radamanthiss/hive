@@ -19,12 +19,23 @@ foreach ($item_data['data'] as $key => $item){
     foreach ($item['recommended'] as $recomended){
         if($recomended['map']=="SR" && $recomended['mode']=="CLASSIC"){
             foreach ($recomended['blocks'] as $block){
-                #var_dump($data[$key]['type']);
-                var_dump($block['type']);
+                $fase = $block['type'];
+                //var_dump($fase);
 
+                foreach($block['items'] as $item){
+                    //var_dump("<pre>");
+                    //var_dump($item);
+                    $objects[$fase]["item_".$i.""] = $item[$key]['id'];
+                    //$block[$fase]['item2'] = $block['bloks'][$fase]['items'][1]['id'];
+                    $data[$key]['items'] = $objects;
+                }
             }
+            //var_dump("<pre>");
+            //var_dump($prueba);
+
         }
     }
+    //var_dump($block);
 
 
     $i++;
@@ -32,6 +43,7 @@ foreach ($item_data['data'] as $key => $item){
 
 
 }
-#var_dump($data);
+var_dump("<pre>");
+var_dump($data);
 
 
