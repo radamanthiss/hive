@@ -1,5 +1,5 @@
 body{
-	background: url('/views/img/vs/vs.png');
+	background: url('/views/img/vs/back.png');
 	color: white;
 }
 
@@ -30,7 +30,7 @@ body{
 }
 
 .column.second .mod.logo{
-	background: url('/views/img/vs/back.png');
+	background: url('/views/img/vs/vs.png');
 	width: 250px;
 	min-height: 230px;
 }
