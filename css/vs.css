@@ -1,0 +1,63 @@
+body{
+	background: url('/img/vs/bg.png');
+	color: white;
+}
+
+.container{
+	width: 1280px;
+	margin: 0 auto;
+	padding-top: 40px;
+}
+
+.container .column{
+	width: 33.3%;
+}
+
+.column.first .name, .column.first .champName, .column.third .name, .column.third .champName{
+	font-size: 150%;
+	min-height:40px;
+	padding: 10px 20px;
+}
+
+.column.second{
+	min-width: 33.3%;
+	min-height: 500px;
+	position: relative;
+}
+
+.column.second div{
+	margin: 0 auto;
+}
+
+.column.second .mod.logo{
+	background: url('/img/vs/vs.png');
+	width: 250px;
+	min-height: 230px;
+}
+
+.column.second .lol.logo{
+	background: url('/img/vs/lol_logo.jpg');
+	width: 370px;
+	height: 140px;
+	position: absolute;
+	bottom: 0;
+	left: 7%;
+}
+
+.column .champ.darius{
+	background: url('/img/champs/Darius_14.jpg')top right;
+	min-height: 400px;
+	width: 100%;
+}
+
+.items{
+	margin: 0 auto;
+	text-align: center;
+}
+
+.items .item{
+	height: 50px;
+	width: 50px;
+	display: inline-block;
+	background: url('/img/items/3065.png');
+}	
