@@ -14,7 +14,7 @@ $encode = rawurlencode($summoner);
 //variable recogida con servidor especifico
 $server = $_POST['server'];
 //key de la api para realizar las consultas
-$key = "RGAPI-39babeb7-ece7-4b6d-9901-855dfa1834b8";
+$key = "RGAPI-f2716034-12e3-4bdf-bc19-db1063928ec0";
 
 
 
@@ -25,7 +25,8 @@ $key = "RGAPI-39babeb7-ece7-4b6d-9901-855dfa1834b8";
 function getUserInfo($server,$key,$encode)
 {
     //ARCHIVO JSON CON DATOS DEL USUARIO
-    $file_user_info = "model/user_info/user_" . $encode . ".json";
+    //TODO ajustar rutas de archivos
+    $file_user_info = "../../../model/user_info/user_" . $encode . ".json";
     if (!file_exists($file_user_info)) {
         //url de consulta
         $url = "https://" . $server . ".api.riotgames.com/lol/summoner/v3/summoners/by-name/" . $encode . "?api_key=" . $key . "";
@@ -70,5 +71,21 @@ function loadUserInfo($encode,$server,$key ){
 //Se realiza el llamado a la información relacionadas con las partidas jugadas por el usuario.
 //$match_data = "https://" . $server . ".api.riotgames.com/lol/match/v3/matchlists/by-account/" . $summoner_account . "?api_key=" . $key . "";
 
-//getUserInfo($server,$key,$encode);
-//loadUserInfo($encode,$server,$key);
+function spectatorInfo($encode,$key,$server){
+    $account_data = file_get_contents("model/user_info/user_".$encode.".json");
+    $array_content = json_decode($account_data);
+    $summoner_id = $array_content->id;
+    $url_spectator = "https://".$server.".api.riotgames.com/lol/spectator/v3/active-games/by-summoner/$summoner_id?api_key=".$key."";
+    $json_spectator = "user_".$encode."_spectator.json";
+    $spectator_json = file_get_contents($url_spectator);
+    file_put_contents($json_spectator,$spectator_json);
+    $array_spectator = json_decode($spectator_json);
+    $i = 0;
+    $spectator_array = array();
+    var_dump($array_spectator->participants[0]);
+
+
+}
+//spectatorInfo($summoner_id,$key,$server);
+//masteryChamps($summoner_id, $key, $server);
+
