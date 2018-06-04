@@ -25,7 +25,8 @@ $key = "RGAPI-f2716034-12e3-4bdf-bc19-db1063928ec0";
 function getUserInfo($server,$key,$encode)
 {
     //ARCHIVO JSON CON DATOS DEL USUARIO
-    $file_user_info = "model/user_info/user_" . $encode . ".json";
+    //TODO ajustar rutas de archivos
+    $file_user_info = "../../../model/user_info/user_" . $encode . ".json";
     if (!file_exists($file_user_info)) {
         //url de consulta
         $url = "https://" . $server . ".api.riotgames.com/lol/summoner/v3/summoners/by-name/" . $encode . "?api_key=" . $key . "";

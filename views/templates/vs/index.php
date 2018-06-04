@@ -14,6 +14,9 @@
 
     <!-- Custom styles for this template -->
     <link href="sticky-footer-navbar.css" rel="stylesheet">
+
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script type="text/javascript" src="../../js/vs.js"></script>
 </head>
 
 <body>
@@ -37,8 +40,8 @@
                     <a class="nav-link disabled" href="#">Disabled</a>
                 </li>
             </ul>
-            <form class="form-inline mt-2 mt-md-0">
-            <select class="selectpicker">
+            <form class="form-inline mt-2 mt-md-0" id ='vsForm'>
+            <select class="selectpicker" name='server'>
                 <option value="" selected="" required hidden="">Servidor </option>
                 <option value="ru">RU</option>
                 <option value="kr">KR</option>
@@ -51,7 +54,7 @@
                 <option value="la1">LA1</option>
                 <option value="la2">LA2</option>
             </select>
-                <input class="form-control mr-sm-2" type="text" placeholder="Nombre de invocador" aria-label="Search">
+                <input class="form-control mr-sm-2" type="text" placeholder="Nombre de invocador" aria-label="Search" name='name'>
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
             </form>
         </div>
@@ -60,6 +63,7 @@
 
 <!-- Begin page content -->
 <main role="main" class="container">
+    <div class="data_result"></div>
     <h1 class="mt-5">Sticky footer with fixed navbar</h1>
     <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body &gt; .container</code>.</p>
     <p>Back to <a href="../sticky-footer">the default sticky footer</a> minus the navbar.</p>
@@ -74,7 +78,7 @@
 <!-- Bootstrap core JavaScript
 ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
-<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
 <script>window.jQuery || document.write('<script src="../../assets/js/vendor/jquery-slim.min.js"><\/script>')</script>
 <script src="../../assets/js/vendor/popper.min.js"></script>
 <script src="../../js/bootstrap.min.js"></script>
