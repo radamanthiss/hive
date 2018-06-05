@@ -30,23 +30,23 @@
 
             </ul>
             <div class="navbar-header">
-            <form class="form-inline mt-2 mt-md-0" id ='vsForm'>
-            <select class="selectpicker" name='server' style="margin-right: 10px;">
-                <option value="" selected="" required hidden="">Servidor </option>
-                <option value="ru">RU</option>
-                <option value="kr">KR</option>
-                <option value="br1">BR1</option>
-                <option value="oc1">OC1</option>
-                <option value="jp1">JP1</option>
-                <option value="na1">NA1</option>
-                <option value="euw1">EUW1</option>
-                <option value="tr1">TR1</option>
-                <option value="la1">LA1</option>
-                <option value="la2">LA2</option>
-            </select>
-                <input class="form-control mr-sm-2" type="text" placeholder="Nombre de invocador" aria-label="Search" name='name'>
-                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-            </form>
+                <form class="form-inline mt-2 mt-md-0" id ='vsForm'>
+                    <select class="selectpicker" name='server' style="margin-right: 10px;">
+                        <option value="" selected="" required hidden="">Servidor </option>
+                        <option value="ru">RU</option>
+                        <option value="kr">KR</option>
+                        <option value="br1">BR1</option>
+                        <option value="oc1">OC1</option>
+                        <option value="jp1">JP1</option>
+                        <option value="na1">NA1</option>
+                        <option value="euw1">EUW1</option>
+                        <option value="tr1">TR1</option>
+                        <option value="la1">LA1</option>
+                        <option value="la2">LA2</option>
+                    </select>
+                    <input class="form-control mr-sm-2" type="text" placeholder="Nombre de invocador" aria-label="Search" name='name'>
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
             </div>
         </div>
     </nav>
@@ -55,10 +55,10 @@
 <!-- Begin page content -->
 <main role="main" >
     <div class="container">
-    <div class="data_result"></div>
-    <h1 class="mt-5">Sticky footer with fixed navbar</h1>
-    <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body &gt; .container</code>.</p>
-    <p>Back to <a href="">the default sticky footer</a> minus the navbar.</p>
+        <div class="data_result"></div>
+        <h1 class="mt-5">Sticky footer with fixed navbar</h1>
+        <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body &gt; .container</code>.</p>
+        <p>Back to <a href="">the default sticky footer</a> minus the navbar.</p>
 
         <hr class="featurette-divider">
         <footer class="container">

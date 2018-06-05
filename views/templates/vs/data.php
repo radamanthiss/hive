@@ -42,8 +42,8 @@ foreach ($array_spectator->participants as $key => $participants){
     $array_match_info[$key]['championName'] = $query_array['champ_name'];
 }
 mysqli_close($con);
-var_dump("<pre>");
-var_dump($array_match_info);
+//var_dump("<pre>");
+//var_dump($array_match_info);
 //var_dump($array_match_info);
 ?>
 
@@ -56,6 +56,34 @@ var_dump($array_match_info);
 	<link rel="stylesheet" type="text/css" href="../../css/vs.css">
 </head>
 <body>
+<div class="container-marketing">
+    <div class="column left first">
+        <div class="user left name">test</div>
+        <div class="user left champ darius"></div>
+        <div class="user left champName">Darius</div>
+    </div>
+    <div class="column left second ">
+        <div class="mod logo">
+
+        </div>
+        <div class="lol logo"></div>
+    </div>
+    <div class="column right third">
+        <div class="rival right name">Tester</div>
+        <div class="rival right champ darius"></div>
+        <div class="rival right champ name">tejon</div>
+    </div>
+    <div class="items clear">
+        <span class="item 3065.png"></span>
+        <span class="item 3065.png"></span>
+        <span class="item 3065.png"></span>
+        <span class="item 3065.png"></span>
+        <span class="item 3065.png"></span>
+        <span class="item 3065.png"></span>
+    </div>
+    <div class="clear"></div>
+
+</div>
 <script src="../../js/jquery.js"></script>
 <script src="../../js/bootstrap.min.js"></script>
 </body>
