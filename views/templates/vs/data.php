@@ -1,6 +1,15 @@
 <?php
+/**
+ * Created by PhpStorm.
+ * User: kevin
+ * Date: 2/06/2018
+ * Time: 1:54 PM
+ */
+/**
+ * ruta al archivo de funciones
+ */
 include '../../../controller/user_functions.php';
-//TO DO se debe cambiar como constante y que qede en un unicoarchivo
+//TO DO se debe cambiar como constante y que quede en un unicoarchivo
 $key = "RGAPI-f2716034-12e3-4bdf-bc19-db1063928ec0";
 
 if (!empty($_POST['name']) && !empty($_POST['server'])) {
@@ -10,14 +19,14 @@ if (!empty($_POST['name']) && !empty($_POST['server'])) {
 	echo "adios";
 }
 
-$spectator_data = file_get_contents("http://hive.lo/model/user_info/user_32998717_spectator.json");
+$spectator_data = file_get_contents("../../../model/user_info/user_32998717_spectator.json");
 $array_spectator = json_decode($spectator_data);
-//var_dump($array_spectator);
-
+/*
+ * sentencia foreach para acceder a la informacion del usuario
+ */
 $array_match_info = array();
 foreach ($array_spectator->participants as $key => $participants){
-    //var_dump("<pre>");
-    //var_dump($participants);
+
     $array_match_info[$key]['summonerName'] = $participants->summonerName;
     $array_match_info[$key]['championId'] = $participants->championId;
     $array_match_info[$key]['teamId'] = $participants->teamId;

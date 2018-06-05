@@ -1,4 +1,4 @@
-var postForm = '/views/templates/vs/data.php';
+var postForm = '../vs/data.php';
 var postedData = '';
 $( document ).ready(function() {
     $("#vsForm").on('submit', function(e){

@@ -1,10 +1,15 @@
 <?php
+/**
+ * variable de inicio de session
+ */
 session_start();
-
+#se valida inicio de session y se redirige al index
 if(isset($_SESSION['usr_id'])!="") {
 	header("Location: index.php");
 }
-
+/**
+ * se incluye el fichero de configuracion de conexion a la base de datos
+ */
 include_once 'dbconnect.php';
 
 //Comprobar de envío el formulario
@@ -12,10 +17,10 @@ if (isset($_POST['login'])) {
 
 	$username = mysqli_real_escape_string($con, $_POST['username']);
 	$password = mysqli_real_escape_string($con, $_POST['password']);
+	#query para seleccionar el usuario de la base de datos
 	$result = mysqli_query($con, "SELECT * FROM usuarios WHERE username = '" . $username. "' and password = '" . md5($password) . "'");
 
 	if ($row = mysqli_fetch_array($result)) {
-		//$_SESSION['usr_estado'] = $row['estado'];
 
 		if($row['estado']==1){
 			$_SESSION['usr_id'] = $row['id'];
@@ -33,13 +38,11 @@ if (isset($_POST['login'])) {
 <!DOCTYPE html>
 <html>
 <head>
+    <title>Login</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="author" content="">
-
-
-    <title>Login</title>
     <meta content="width=device-width, initial-scale=1.0" name="viewport" >
     <!--link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" /-->
 
@@ -71,12 +74,15 @@ if (isset($_POST['login'])) {
         <!-- menu items -->
         <div class="collapse navbar-collapse" id="navbar1">
             <ul class="nav navbar-nav navbar-right">
-                <li><a href="login.php">Login</a></li>
-                <li class="active"><a href="register.php">Registro</a></li>
+                <li class="active"><a href="login.php">Login</a></li>
+                <li><a href="register.php">Registro</a></li>
             </ul>
         </div>
     </div>
 </nav>
+
+
+
 
 <div class="container">
 	<div class="row">
@@ -101,7 +107,8 @@ if (isset($_POST['login'])) {
 					<div class="form-group">
 						<input type="submit" name="login" value="Iniciar Sesion" class="btn btn-primary" />
 						<input type="reset" value="Limpiar" class="btn btn-default" >
-					</div>
+					<<script src="views/js/jquery-1.10.2.js"></script>
+                        <script src="views/js/bootstrap.min.js"></script>/div>
 				</fieldset>
 			</form>
 			<span class="text-danger"><?php if (isset($errormsg)) { echo $errormsg; } ?></span>
@@ -112,9 +119,14 @@ if (isset($_POST['login'])) {
 		No tienes cuenta? <a href="register.php">Regitrate aqui</a>
 		</div>
 	</div>
+    <hr class="featurette-divider">
+    <footer class="container">
+        <p class="float-xl-right">© 2017-2018 Hive Evolution, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+    </footer>
 </div>
 
-<script src="js/jquery-1.10.2.js"></script>
-<script src="js/bootstrap.min.js"></script>
+
+<script src="views/js/jquery-1.10.2.js"></script>
+<script src="views/js/bootstrap.min.js"></script>
 </body>
 </html>

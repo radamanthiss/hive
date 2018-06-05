@@ -4,13 +4,15 @@ session_start();
 if(isset($_SESSION['usr_id'])) {
 	header("Location: index.php");
 }
-
+/**
+ * se incluye el archivo de conexion a la base de datos
+ */
 include_once 'dbconnect.php';
 
 //Establece el error de validación como flag
 $error = false;
 
-//check if form is submitted
+// valida si el formulario ha sido enviado
 if (isset($_POST['signup'])) {
 	$username = mysqli_real_escape_string($con, $_POST['username']);
 	$email = mysqli_real_escape_string($con, $_POST['email']);
@@ -39,6 +41,7 @@ if (isset($_POST['signup'])) {
 		//$error = true;
 		//$terminosycond_error = "Debes aceptar Terminos y condiciones";
 	}
+	#insertar en la tabla usuario un nuevo registro
 	if (!$error) {
 		if(mysqli_query($con, "INSERT INTO usuarios(username,email,password,estado) VALUES('" . $username . "', '" . $email . "', '" . md5($password) . "',1)")) {
 			//$successmsg = "¡Registrado exitosamente! <a href='login.php'>Click here to Login</a>";
@@ -164,8 +167,13 @@ if (isset($_POST['signup'])) {
 		</div>
 	</div>
 </div>
-<script src="js/jquery-1.10.2.js"></script>
-<script src="js/bootstrap.min.js"></script>
+<hr class="featurette-divider">
+<footer class="container">
+    <p class="float-xl-right">© 2017-2018 Hive Evolution, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
+</footer>
+
+<script src="views/js/jquery-1.10.2.js"></script>
+<script src="views/js/bootstrap.min.js"></script>
 </body>
 </html>
 

@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/usuarios.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/model/sql/campeones.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/model/sql/objetos.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/model/sql/recomendacion.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/model/sql/tipos.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/model/sql/usuarios.sql" dialect="MySQL" />
   </component>
 </project>
