@@ -96,15 +96,16 @@ function spectatorInfo($server,$key,$encode ){
         $array_match_info[$key]['teamId'] = $participants->teamId;
         $champion_id = $participants->championId;
         $query = mysqli_query($con, "SELECT champ_name FROM campeones WHERE champ_id = '" .$champion_id. "'");
-        $query2 = mysqli_query($con, "SELECT r.item_id,t.item_name,f.name from recomendacion as r INNER JOIN objetos as t on t.item_id=r.item_id INNER JOIN campeones as c on c.champ_id=r.champ_id INNER JOIN tipos as f on r.type_id=f.type_id where c.champ_id like '" .$participants->championId. "'");
+        //$query2 = mysqli_query($con, "SELECT r.item_id,t.item_name,f.name from recomendacion as r INNER JOIN objetos as t on t.item_id=r.item_id INNER JOIN campeones as c on c.champ_id=r.champ_id INNER JOIN tipos as f on r.type_id=f.type_id where c.champ_id like '" .$participants->championId. "'");
         $query_array = mysqli_fetch_array($query);
-        $query_array2 = mysqli_fetch_array($query2);
+        //$query_array2 = mysqli_fetch_array($query2);
         $items_array = array();
-        foreach ($query_array2 as $llave => $items_data) {
-           $items_array[$llave]['item_id'] = $items_data[$llave];
-           $items_array[$llave]['item_name'] = $items_data[$llave];
-        }
-        var_dump($items_array);
+        /*foreach ($query_array2 as $llave => $items_data) {
+           //var_dump($items_data);
+           //$items_array[$llave]['item_id'] = $items_data[$llave];
+           //$items_array[$llave]['item_name'] = $items_data[$llave];
+        }*/
+
         $array_match_info[$key]['championName'] = $query_array['champ_name'];
 
     }

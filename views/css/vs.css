@@ -1,12 +1,11 @@
-body{
-	background: url('../img/vs/back.png');
+body {
+	background: url('../img/vs/league10.jpg');
 	color: white;
 }
 
-.container{
-	width: 1280px;
-	margin: 0 auto;
-	padding-top: 40px;
+.cuerpo{
+	background: url('../img/vs/league10.jpg');
+	color: white;
 }
 
 .container .column{
@@ -36,7 +35,7 @@ body{
 }
 
 .column.second .lol.logo{
-	background: url('../img/vs/challenger.png');
+	background: url('/img/vs/challenger.png');
 	width: 370px;
 	height: 140px;
 	position: absolute;
@@ -45,6 +44,7 @@ body{
 }
 
 .column .champ.darius{
+	background: url('../img/champion/loading/Katarina_5.jpg')top right;
 	min-height: 324px;
 	width: 300px;
 }

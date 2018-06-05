@@ -11,10 +11,11 @@
 
     <!-- Bootstrap core CSS -->
     <link href="../../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../css/vs.css" rel="stylesheet">
 
 </head>
 
-<body>
+<body class="cuerpo">
 
 <header>
     <!-- Fixed navbar -->
@@ -56,14 +57,10 @@
 <main role="main" >
     <div class="container">
         <div class="data_result"></div>
-        <h1 class="mt-5">Sticky footer with fixed navbar</h1>
-        <p class="lead">Pin a fixed-height footer to the bottom of the viewport in desktop browsers with this custom HTML and CSS. A fixed navbar has been added with <code>padding-top: 60px;</code> on the <code>body &gt; .container</code>.</p>
-        <p>Back to <a href="">the default sticky footer</a> minus the navbar.</p>
+        <h1 class="mt-5">BIENVENIDOS A VERSUS, EL PRIMER PASO A LA GRANDEZA</h1>
 
-        <hr class="featurette-divider">
-        <footer class="container">
-            <p class="float-xl-right">© 2017-2018 Hive Evolution, Inc. · <a href="#">Privacy</a> · <a href="#">Terms</a></p>
-        </footer>
+
+
     </div>
 </main>
 
@@ -76,5 +73,6 @@
 
 <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
 <script type="text/javascript" src="../../js/vs.js?234fsdf"></script>
+
 </body>
 </html>
