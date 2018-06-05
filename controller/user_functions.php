@@ -25,13 +25,10 @@ $key = "RGAPI-f2716034-12e3-4bdf-bc19-db1063928ec0";
 function getUserInfo($server,$key,$encode)
 {
     //ARCHIVO JSON CON DATOS DEL USUARIO
-    //TODO ajustar rutas de archivos
     $file_user_info = "../../../model/user_info/user_" . $encode . ".json";
     if (!file_exists($file_user_info)) {
         //url de consulta
         $url = "https://" . $server . ".api.riotgames.com/lol/summoner/v3/summoners/by-name/" . $encode . "?api_key=" . $key . "";
-        //generación de variables estaticas de la api
-        $static_data = "https://" . $server . ".api.riotgames.com/lol/static-data/v3/realms?api_key=" . $key . "";
         $account_json = file_get_contents($url);
         //se genera archivo json con la información del usuario
         file_put_contents($file_user_info, $account_json);
@@ -72,17 +69,40 @@ function loadUserInfo($encode,$server,$key ){
 //$match_data = "https://" . $server . ".api.riotgames.com/lol/match/v3/matchlists/by-account/" . $summoner_account . "?api_key=" . $key . "";
 
 function spectatorInfo($encode,$key,$server){
+    //se carga información del usuario
     $account_data = file_get_contents("model/user_info/user_".$encode.".json");
     $array_content = json_decode($account_data);
     $summoner_id = $array_content->id;
+    //se llama la función de specttor de la api
     $url_spectator = "https://".$server.".api.riotgames.com/lol/spectator/v3/active-games/by-summoner/$summoner_id?api_key=".$key."";
-    $json_spectator = "user_".$encode."_spectator.json";
+    //se genera el json de spectator
+    $json_spectator = "../../../model/spectator_info/user_".$encode."_spectator.json";
     $spectator_json = file_get_contents($url_spectator);
     file_put_contents($json_spectator,$spectator_json);
+    //se declara el array para la función
     $array_spectator = json_decode($spectator_json);
-    $i = 0;
-    $spectator_array = array();
-    var_dump($array_spectator->participants[0]);
+    $array_match_info = array();
+    //se realiza la conexión a la base de datos
+    $con = mysqli_connect("localhost", "root", "", "test") or die("Error " . mysqli_error($con));
+    /* comprobar la conexión */
+    if ($con->connect_errno) {
+        printf("Falló la conexión: %s\n", $con->connect_error);
+        exit();
+    }
+    foreach ($array_spectator->participants as $key => $participants){
+        //se empieza a armar el array con los datos a pintar
+        $array_match_info[$key]['summonerName'] = $participants->summonerName;
+        $array_match_info[$key]['championId'] = $participants->championId;
+        $array_match_info[$key]['teamId'] = $participants->teamId;
+        $champion_id = $participants->championId;
+        $query = mysqli_query($con, "SELECT champ_name FROM campeones WHERE champ_id = '" .$champion_id. "'");
+        $query_array = mysqli_fetch_array($query);
+        $array_match_info[$key]['championName'] = $query_array['champ_name'];
+    }
+    mysqli_close($con);
+    $spectator_views_file = "../../../model/spectator_info/spectator_" . $encode ."_info.json";
+    $spectator_views_data = json_encode($array_match_info);
+    file_put_contents($spectator_views_file,$spectator_views_data);
 
 
 }
