@@ -21,51 +21,33 @@ foreach ($array_spectator->participants as $key => $participants){
     $array_match_info[$key]['summonerName'] = $participants->summonerName;
     $array_match_info[$key]['championId'] = $participants->championId;
     $array_match_info[$key]['teamId'] = $participants->teamId;
-    $mysqli = mysqli_connect("localhost", "root", "", "test") or die("Error " . mysqli_error($con));
+    $con = mysqli_connect("localhost", "root", "", "test") or die("Error " . mysqli_error($con));
     /* comprobar la conexión */
-    if ($mysqli->connect_errno) {
-        printf("Falló la conexión: %s\n", $mysqli->connect_error);
+    if ($con->connect_errno) {
+        printf("Falló la conexión: %s\n", $con->connect_error);
         exit();
     }
-    $query = $mysqli->query("SELECT champ_name FROM `campeones` WHERE champ_id = '$participants->championId'");
-    var_dump($query);
-
+    $champion_id = $participants->championId;
+    $query = mysqli_query($con, "SELECT champ_name FROM campeones WHERE champ_id = '" .$champion_id. "'");
+    $query_array = mysqli_fetch_array($query);
+    $array_match_info[$key]['championName'] = $query_array['champ_name'];
 }
+mysqli_close($con);
+var_dump("<pre>");
+var_dump($array_match_info);
 //var_dump($array_match_info);
 ?>
 
 <html>
 <head>
 	<title>Vs</title>
+    <link rel="stylesheet" type="text/css" href="../../css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../../css/reset.css">
 	<link rel="stylesheet" type="text/css" href="../../css/common.css">
 	<link rel="stylesheet" type="text/css" href="../../css/vs.css">
 </head>
 <body>
-	<div class="container">
-		<div class="column left first">
-			<div class="user left name">test</div>
-			<div class="user left champ darius"></div>
-			<div class="user left champName">Darius</div>
-		</div>
-		<div class="column left second ">
-			<div class="mod logo"></div>
-			<div class="lol logo"></div>
-		</div>
-		<div class="column right third">
-			<div class="rival right name">Tester</div>
-			<div class="rival right champ darius"></div>
-			<div class="rival right champ name">tejon</div>
-		</div>
-		<div class="items clear">
-			<span class="item 3065.png"></span>
-			<span class="item 3065.png"></span>
-			<span class="item 3065.png"></span>
-			<span class="item 3065.png"></span>
-			<span class="item 3065.png"></span>
-			<span class="item 3065.png"></span>
-		</div>
-		<div class="clear"></div>
-	</div>
+<script src="../../js/jquery.js"></script>
+<script src="../../js/bootstrap.min.js"></script>
 </body>
 </html>
