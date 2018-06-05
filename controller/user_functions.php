@@ -14,7 +14,7 @@ $encode = rawurlencode($summoner);
 //variable recogida con servidor especifico
 $server = $_POST['server'];
 //key de la api para realizar las consultas
-$key = "RGAPI-f2716034-12e3-4bdf-bc19-db1063928ec0";
+$key = "RGAPI-a6448508-ed5e-405a-ab38-533a39c7ae2b";
 
 
 
@@ -68,9 +68,9 @@ function loadUserInfo($encode,$server,$key ){
 //Se realiza el llamado a la información relacionadas con las partidas jugadas por el usuario.
 //$match_data = "https://" . $server . ".api.riotgames.com/lol/match/v3/matchlists/by-account/" . $summoner_account . "?api_key=" . $key . "";
 
-function spectatorInfo($encode,$key,$server){
+function spectatorInfo($server,$key,$encode ){
     //se carga información del usuario
-    $account_data = file_get_contents("model/user_info/user_".$encode.".json");
+    $account_data = file_get_contents("../../../model/user_info/user_".$encode.".json");
     $array_content = json_decode($account_data);
     $summoner_id = $array_content->id;
     //se llama la función de specttor de la api
@@ -96,8 +96,17 @@ function spectatorInfo($encode,$key,$server){
         $array_match_info[$key]['teamId'] = $participants->teamId;
         $champion_id = $participants->championId;
         $query = mysqli_query($con, "SELECT champ_name FROM campeones WHERE champ_id = '" .$champion_id. "'");
+        $query2 = mysqli_query($con, "SELECT r.item_id,t.item_name,f.name from recomendacion as r INNER JOIN objetos as t on t.item_id=r.item_id INNER JOIN campeones as c on c.champ_id=r.champ_id INNER JOIN tipos as f on r.type_id=f.type_id where c.champ_id like '" .$participants->championId. "'");
         $query_array = mysqli_fetch_array($query);
+        $query_array2 = mysqli_fetch_array($query2);
+        $items_array = array();
+        foreach ($query_array2 as $llave => $items_data) {
+           $items_array[$llave]['item_id'] = $items_data[$llave];
+           $items_array[$llave]['item_name'] = $items_data[$llave];
+        }
+        var_dump($items_array);
         $array_match_info[$key]['championName'] = $query_array['champ_name'];
+
     }
     mysqli_close($con);
     $spectator_views_file = "../../../model/spectator_info/spectator_" . $encode ."_info.json";

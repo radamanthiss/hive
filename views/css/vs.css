@@ -36,7 +36,7 @@ body{
 }
 
 .column.second .lol.logo{
-	background: url('/img/vs/challenger.png');
+	background: url('../img/vs/challenger.png');
 	width: 370px;
 	height: 140px;
 	position: absolute;
@@ -45,7 +45,6 @@ body{
 }
 
 .column .champ.darius{
-	background: url('../img/champion/loading/Katarina_5.jpg')top right;
 	min-height: 324px;
 	width: 300px;
 }
