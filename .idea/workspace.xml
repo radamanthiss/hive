@@ -2,26 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d063c0bb-5592-4735-b84d-12802c0cf27a" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/img/champion/splash/Ahri_6.jpg~origin_slifer_branch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/img/champion/splash/Azir_3.jpg~origin_slifer_branch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/img/champion/splash/Bard_5.jpg~origin_slifer_branch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/img/champion/splash/Gragas_7.jpg~HEAD_0" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/img/champion/splash/Gragas_7.jpg~origin_slifer_branch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/img/champion/splash/Gragas_7.jpg~origin_slifer_branch_0" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/img/champion/splash/Pantheon_8.jpg~HEAD_0" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/img/champion/splash/Pantheon_8.jpg~origin_slifer_branch" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/img/champion/splash/Pantheon_8.jpg~origin_slifer_branch_0" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/views/img/champion/splash/Rammus_7.jpg~origin_slifer_branch" />
-      <change beforePath="$PROJECT_DIR$/champion/splash/Ahri_6.jpg" afterPath="$PROJECT_DIR$/champion/splash/Ahri_6.jpg" />
-      <change beforePath="$PROJECT_DIR$/champion/splash/Azir_3.jpg" afterPath="$PROJECT_DIR$/champion/splash/Azir_3.jpg" />
-      <change beforePath="$PROJECT_DIR$/champion/splash/Bard_5.jpg" afterPath="$PROJECT_DIR$/champion/splash/Bard_5.jpg" />
-      <change beforePath="$PROJECT_DIR$/champion/splash/Rammus_7.jpg" afterPath="$PROJECT_DIR$/champion/splash/Rammus_7.jpg" />
-      <change beforePath="$PROJECT_DIR$/views/img/champion/splash/Ahri_6.jpg" afterPath="$PROJECT_DIR$/views/img/champion/splash/Ahri_6.jpg~HEAD" />
-      <change beforePath="$PROJECT_DIR$/views/img/champion/splash/Azir_3.jpg" afterPath="$PROJECT_DIR$/views/img/champion/splash/Azir_3.jpg~HEAD" />
-      <change beforePath="$PROJECT_DIR$/views/img/champion/splash/Bard_5.jpg" afterPath="$PROJECT_DIR$/views/img/champion/splash/Bard_5.jpg~HEAD" />
-      <change beforePath="$PROJECT_DIR$/views/img/champion/splash/Gragas_7.jpg" afterPath="$PROJECT_DIR$/views/img/champion/splash/Gragas_7.jpg~HEAD" />
-      <change beforePath="$PROJECT_DIR$/views/img/champion/splash/Pantheon_8.jpg" afterPath="$PROJECT_DIR$/views/img/champion/splash/Pantheon_8.jpg~HEAD" />
-      <change beforePath="$PROJECT_DIR$/views/img/champion/splash/Rammus_7.jpg" afterPath="$PROJECT_DIR$/views/img/champion/splash/Rammus_7.jpg~HEAD" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/go-pear.phar" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/c7010cac-5f29-4890-8dda-044d4da36180.xml" afterPath="$PROJECT_DIR$/.idea/dataSources/c7010cac-5f29-4890-8dda-044d4da36180.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change beforePath="$PROJECT_DIR$/views/js/vs.js" afterPath="$PROJECT_DIR$/views/js/vs.js" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -29,6 +16,9 @@
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -41,76 +31,65 @@
     <option name="HIDDEN_KINDS">
       <set />
     </option>
-    <expand />
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="test@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+    </expand>
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="index.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/index.php">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
+      <file leaf-file-name="tipos.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/sql/tipos.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+              <folding>
+                <marker date="1528197514263" expanded="true" signature="303:367" ph="/*!40101 SET... " />
+                <marker date="1528197514263" expanded="true" signature="369:435" ph="/*!40101 SET... " />
+                <marker date="1528197514263" expanded="true" signature="437:501" ph="/*!40101 SET... " />
+                <marker date="1528197514263" expanded="true" signature="503:532" ph="/*!40101 SET... " />
+                <marker date="1528197514263" expanded="true" signature="670:791" ph="CREATE TABLE... tipos" />
+                <marker date="1528197514263" expanded="true" signature="835:1192" ph="INSERT INTO `tipos`... " />
+                <marker date="1528197514263" expanded="true" signature="1266:1315" ph="ALTER TABLE `tipos`... " />
+                <marker date="1528197514263" expanded="true" signature="1326:1388" ph="/*!40101 SET... " />
+                <marker date="1528197514263" expanded="true" signature="1390:1454" ph="/*!40101 SET... " />
+                <marker date="1528197514263" expanded="true" signature="1456:1518" ph="/*!40101 SET... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="recomendacion.sql" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/model/sql/recomendacion.sql">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+              <folding>
+                <marker date="1528197500195" expanded="true" signature="303:367" ph="/*!40101 SET... " />
+                <marker date="1528197500195" expanded="true" signature="369:435" ph="/*!40101 SET... " />
+                <marker date="1528197500195" expanded="true" signature="437:501" ph="/*!40101 SET... " />
+                <marker date="1528197500195" expanded="true" signature="503:532" ph="/*!40101 SET... " />
+                <marker date="1528197500195" expanded="true" signature="678:874" ph="CREATE TABLE... recomendacion" />
+                <marker date="1528197500195" expanded="true" signature="926:56162" ph="INSERT INTO `recomendacion`... " />
+                <marker date="1528197500195" expanded="true" signature="56164:72722" ph="INSERT INTO `recomendacion`... " />
+                <marker date="1528197500195" expanded="true" signature="72804:72868" ph="ALTER TABLE `recomendacion`... " />
+                <marker date="1528197500195" expanded="true" signature="72964:73070" ph="ALTER TABLE `recomendacion`... " />
+                <marker date="1528197500195" expanded="true" signature="73081:73143" ph="/*!40101 SET... " />
+                <marker date="1528197500195" expanded="true" signature="73145:73209" ph="/*!40101 SET... " />
+                <marker date="1528197500195" expanded="true" signature="73211:73273" ph="/*!40101 SET... " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="objetos.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/model/sql/objetos.sql">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
-              <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/templates/vs/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="reset.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/css/reset.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/css/common.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="vs.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/css/vs.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="283">
-              <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="api_functions.php" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/controller/api_functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="194">
-              <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="user_functions.php" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/controller/user_functions.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="425">
-              <caret line="39" column="51" lean-forward="false" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+              <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="333" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -122,6 +101,9 @@
     <findStrings>
       <find>clas</find>
     </findStrings>
+    <dirStrings>
+      <dir>C:\xampp\htdocs\hive\views</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
@@ -140,14 +122,25 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$APPLICATION_CONFIG_DIR$/consoles/db/c7010cac-5f29-4890-8dda-044d4da36180/console.sql" />
-        <option value="$PROJECT_DIR$/dbconnect.php" />
         <option value="$PROJECT_DIR$/static_data/items.json" />
         <option value="$PROJECT_DIR$/../Hive-Proyect/index.php" />
         <option value="$PROJECT_DIR$/controller/api_functions.php" />
-        <option value="$PROJECT_DIR$/recomended.php" />
         <option value="$PROJECT_DIR$/../comprimir/index.html" />
+        <option value="$PROJECT_DIR$/dbconnect.php" />
         <option value="$PROJECT_DIR$/views/templates/vs/index.html" />
+        <option value="$PROJECT_DIR$/views/css/carousel.css" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/views/css/bootstraps.min.css" />
+        <option value="$PROJECT_DIR$/views/js/vs.js" />
+        <option value="$PROJECT_DIR$/views/templates/vs/index.php" />
+        <option value="$PROJECT_DIR$/versus.php" />
+        <option value="$PROJECT_DIR$/views/templates/vs/data.php" />
         <option value="$PROJECT_DIR$/views/css/vs.css" />
+        <option value="$PROJECT_DIR$/register.php" />
+        <option value="$PROJECT_DIR$/recomended.php" />
+        <option value="$PROJECT_DIR$/login.php" />
+        <option value="$PROJECT_DIR$/logout.php" />
+        <option value="$PROJECT_DIR$/model/sql/objetos.sql" />
       </list>
     </option>
   </component>
@@ -157,7 +150,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true">
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" interpreter_name="PHP 7.2">
     <include_path>
       <path value="$PROJECT_DIR$/vendor/twbs/bootstrap" />
       <path value="$PROJECT_DIR$/vendor/composer" />
@@ -184,6 +177,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -191,12 +185,16 @@
               <item name="hive" type="b2602c69:ProjectViewProjectNode" />
               <item name="hive" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
+            <path>
+              <item name="hive" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hive" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="model" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -204,141 +202,20 @@
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../comprimir" />
     <property name="two.files.diff.last.used.file" value="$PROJECT_DIR$/recomended.php" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\xampp\htdocs\hive\views\img" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\hive\model\sql" />
+      <recent name="C:\xampp\htdocs\hive" />
+      <recent name="C:\xampp\htdocs\hive\views\img\vs" />
+      <recent name="C:\xampp\htdocs\hive\views\css" />
       <recent name="C:\xampp\htdocs\hive\views\templates" />
     </key>
-  </component>
-  <component name="RestoreUpdateTree" date="Moments ago" ActionInfo="_Update">
-    <UpdatedFiles>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Updated from server" />
-        <option name="myStatusName" value="Changed on server" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="CHANGED_ON_SERVER" />
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Updated" />
-          <option name="myStatusName" value="Changed" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="UPDATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/hive.iml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/bootstrap.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/index.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/bootstrap.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/login.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/register.php</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Created" />
-          <option name="myStatusName" value="Created" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="CREATED" />
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/.idea/php.xml</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/bootstraps.min.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/css/carousel.css</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/img/ahri_6.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/img/amumu_6.jpg</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/img/descarga.gif</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/bootstraps.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/holder.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/js/jquery-3.3.1.slim.min.js</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/recomended.json</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/recomended.php</PATH>
-          <PATH vcs="Git" revision="">$PROJECT_DIR$/versus.php</PATH>
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Deleted" />
-          <option name="myStatusName" value="Deleted" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="true" />
-          <option name="myId" value="REMOVED_FROM_REPOSITORY" />
-        </FILE-GROUP>
-        <FILE-GROUP>
-          <option name="myUpdateName" value="Restored" />
-          <option name="myStatusName" value="Will be restored" />
-          <option name="mySupportsDeletion" value="false" />
-          <option name="myCanBeAbsent" value="false" />
-          <option name="myId" value="RESTORED" />
-        </FILE-GROUP>
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Modified" />
-        <option name="myStatusName" value="Modified" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MODIFIED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Skipped" />
-        <option name="myStatusName" value="Skipped" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SKIPPED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with conflicts" />
-        <option name="myStatusName" value="Will be merged with conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_CONFLICTS" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with tree conflicts" />
-        <option name="myStatusName" value="Merged with tree conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_TREE_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged with property conflicts" />
-        <option name="myStatusName" value="Will be merged with property conflicts" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED_WITH_PROPERTY_CONFLICT" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Merged" />
-        <option name="myStatusName" value="Will be merged" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="MERGED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Not in repository" />
-        <option name="myStatusName" value="Not in repository" />
-        <option name="mySupportsDeletion" value="true" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="UNKNOWN" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally added" />
-        <option name="myStatusName" value="Locally added" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_ADDED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Locally removed" />
-        <option name="myStatusName" value="Locally removed" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="LOCALLY_REMOVED" />
-      </FILE-GROUP>
-      <FILE-GROUP>
-        <option name="myUpdateName" value="Switched" />
-        <option name="myStatusName" value="Switched" />
-        <option name="mySupportsDeletion" value="false" />
-        <option name="myCanBeAbsent" value="false" />
-        <option name="myId" value="SWITCHED" />
-      </FILE-GROUP>
-    </UpdatedFiles>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\hive\model\sql" />
+      <recent name="C:\xampp\htdocs\hive\views\img" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -352,11 +229,19 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="PHPUnit.hive">
+    <configuration name="hive" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" />
+    </configuration>
     <configuration name="user_functions.php" type="PhpLocalRunConfigurationType" factoryName="PHP Console" temporary="true" path="$PROJECT_DIR$/controller/user_functions.php" />
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="PHP Script.user_functions.php" />
+      <item index="1" class="java.lang.String" itemvalue="PHPUnit.hive" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="PHP Script.user_functions.php" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="PHPUnit.hive" />
+        <item index="1" class="java.lang.String" itemvalue="PHP Script.user_functions.php" />
       </list>
     </recent_temporary>
   </component>
@@ -374,6 +259,10 @@
       <option name="presentableId" value="Default" />
       <updated>1527894633399</updated>
       <workItem from="1527894634586" duration="28826000" />
+      <workItem from="1528039416357" duration="10483000" />
+      <workItem from="1528141821262" duration="4223000" />
+      <workItem from="1528191947899" duration="5260000" />
+      <workItem from="1528220057195" duration="230000" />
     </task>
     <task id="LOCAL-00001" summary="imagenes">
       <created>1527896678378</created>
@@ -417,11 +306,23 @@
       <option name="project" value="LOCAL" />
       <updated>1528035700423</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="Merge remote-tracking branch 'origin/slifer_branch' into slifer_branch&#10;&#10;# Conflicts:&#10;#&#9;champion/splash/Ahri_6.jpg&#10;#&#9;champion/splash/Azir_3.jpg&#10;#&#9;champion/splash/Bard_5.jpg&#10;#&#9;champion/splash/Darius_8.jpg&#10;#&#9;champion/splash/Elise_4.jpg&#10;#&#9;champion/splash/Rammus_7.jpg&#10;#&#9;champion/splash/Syndra_4.jpg&#10;#&#9;champion/splash/Xerath_4.jpg&#10;#&#9;views/img/champion/loading/Aatrox_0.jpg&#10;#&#9;views/img/champion/loading/Ahri_2.jpg&#10;#&#9;views/img/champion/loading/Akali_6.jpg&#10;#&#9;views/img/champion/loading/Alistar_1.jpg&#10;#&#9;views/img/champion/loading/Alistar_10.jpg&#10;#&#9;views/img/champion/loading/Alistar_19.jpg&#10;#&#9;views/img/champion/loading/Alistar_4.jpg&#10;#&#9;views/img/champion/loading/Amumu_8.jpg&#10;#&#9;views/img/champion/loading/Anivia_7.jpg&#10;#&#9;views/img/champion/loading/Annie_0.jpg&#10;#&#9;views/img/champion/loading/Annie_10.jpg&#10;#&#9;views/img/champion/loading/Annie_8.jpg&#10;#&#9;views/img/champion/loading/Ashe_5.jpg&#10;#&#9;views/img/champion/loading/Azir_2.jpg&#10;#&#9;views/img/champion/loading/Azir_4.jpg&#10;#&#9;views/img/champion/loading/Bard_6.jpg&#10;#&#9;views/img/champion/loading/Brand_0.jpg&#10;#&#9;views/img/champion/loading/Brand_6.jpg&#10;#&#9;views/img/champion/loading/Braum_1.jpg&#10;#&#9;views/img/champion/loading/Braum_10.jpg&#10;#&#9;views/img/champion/loading/Caitlyn_2.jpg&#10;#&#9;views/img/champion/loading/Cassiopeia_8.jpg&#10;#&#9;views/img/champion/loading/Chogath_4.jpg&#10;#&#9;views/img/champion/loading/Darius_3.jpg&#10;#&#9;views/img/champion/loading/Draven_0.jpg&#10;#&#9;views/img/champion/loading/Draven_3.jpg&#10;#&#9;views/img/champion/loading/Ekko_1.jpg&#10;#&#9;views/img/champion/loading/Evelynn_1.jpg&#10;#&#9;views/img/champion/loading/Ezreal_0.jpg&#10;#&#9;views/img/champion/loading/Ezreal_8.jpg&#10;#&#9;views/img/champion/loading/Galio_1.jpg&#10;#&#9;views/img/champion/loading/Gangplank_2.jpg&#10;#&#9;views/img/champion/loading/Gangplank_8.jpg&#10;#&#9;views/img/champion/loading/Garen_4.jpg&#10;#&#9;views/img/champion/loading/Gragas_1.jpg&#10;#&#9;views/img/champion/loading/Gragas_4.jpg&#10;#&#9;views/img/champion/loading/Graves_1.jpg&#10;#&#9;views/img/champion/loading/Graves_4.jpg&#10;#&#9;views/img/champion/loading/Graves_7.jpg&#10;#&#9;views/img/champion/loading/Hecarim_2.jpg&#10;#&#9;views/img/champion/loading/Irelia_0.jpg&#10;#&#9;views/img/champion/loading/Irelia_3.jpg&#10;#&#9;views/img/champion/loading/Janna_3.jpg&#10;#&#9;views/img/champion/loading/JarvanIV_2.jpg&#10;#&#9;views/img/champion/loading/JarvanIV_5.jpg&#10;#&#9;views/img/champion/loading/Jax_13.jpg&#10;#&#9;views/img/champion/loading/Jhin_2.jpg&#10;#&#9;views/img/champion/loading/Jinx_0.jpg&#10;#&#9;views/img/champion/loading/Jinx_3.jpg&#10;#&#9;views/img/champion/loading/Karma_3.jpg&#10;#&#9;views/img/champion/loading/Karthus_2.jpg&#10;#&#9;views/img/champion/loading/Kassadin_2.jpg&#10;#&#9;views/img/champion/loading/Katarina_5.jpg&#10;#&#9;views/img/champion/loading/Katarina_8.jpg&#10;#&#9;views/img/champion/loading/Kennen_0.jpg&#10;#&#9;views/img/champion/loading/Kennen_5.jpg&#10;#&#9;views/img/champion/loading/Kled_0.jpg&#10;#&#9;views/img/champion/loading/KogMaw_1.jpg&#10;#&#9;views/img/champion/loading/KogMaw_4.jpg&#10;#&#9;views/img/champion/loading/KogMaw_7.jpg&#10;#&#9;views/img/champion/loading/LeeSin_1.jpg&#10;#&#9;views/img/champion/loading/LeeSin_4.jpg&#10;#&#9;views/img/champion/loading/Leona_1.jpg&#10;#&#9;views/img/champion/loading/Leona_4.jpg&#10;#&#9;views/img/champion/loading/Lissandra_2.jpg&#10;#&#9;views/img/champion/loading/Lucian_2.jpg&#10;#&#9;views/img/champion/loading/Lucian_7.jpg&#10;#&#9;views/img/champion/loading/Lulu_2.jpg&#10;#&#9;views/img/champion/loading/Lulu_5.jpg&#10;#&#9;views/img/champion/loading/Lux_5.jpg&#10;#&#9;views/img/champion/loading/Malphite_1.jpg&#10;#&#9;views/img/champion/loading/Malphite_6.jpg&#10;#&#9;views/img/champion/loading/Malzahar_5.jpg&#10;#&#9;views/img/champion/loading/Maokai_4.jpg&#10;#&#9;views/img/champion/loading/Maokai_7.jpg&#10;#&#9;views/img/champion/loading/MasterYi_11.jpg&#10;#&#9;views/img/champion/loading/MissFortune_1.jpg&#10;#&#9;views/img/champion/loading/MissFortune_4.jpg&#10;#&#9;views/img/champion/loading/MissFortune_9.jpg&#10;#&#9;views/img/champion/loading/MonkeyKing_2.jpg&#10;#&#9;views/img/champion/loading/MonkeyKing_5.jpg&#10;#&#9;views/img/champion/loading/Mordekaiser_5.jpg&#10;#&#9;views/img/champion/loading/Morgana_10.jpg&#10;#&#9;views/img/champion/loading/Morgana_6.jpg&#10;#&#9;views/img/champion/loading/Nami_1.jpg&#10;#&#9;views/img/champion/loading/Nasus_6.jpg&#10;#&#9;views/img/champion/loading/Nautilus_0.jpg&#10;#&#9;views/img/champion/loading/Nautilus_3.jpg&#10;#&#9;views/img/champion/loading/Nidalee_6.jpg&#10;#&#9;views/img/champion/loading/Nunu_0.jpg&#10;#&#9;views/img/champion/loading/Orianna_1.jpg&#10;#&#9;views/img/champion/loading/Orianna_4.jpg&#10;#&#9;views/img/champion/loading/Poppy_6.jpg&#10;#&#9;views/img/champion/loading/Rakan_2.jpg&#10;#&#9;views/img/champion/loading/Rammus_1.jpg&#10;#&#9;views/img/champion/loading/RekSai_0.jpg&#10;#&#9;views/img/champion/loading/Renekton_1.jpg&#10;#&#9;views/img/champion/loading/Renekton_4.jpg&#10;#&#9;views/img/champion/loading/Rengar_1.jpg&#10;#&#9;views/img/champion/loading/Riven_16.jpg&#10;#&#9;views/img/champion/loading/Riven_2.jpg&#10;#&#9;views/img/champion/loading/Riven_5.jpg&#10;#&#9;views/img/champion/loading/Rumble_4.jpg&#10;#&#9;views/img/champion/loading/Ryze_7.jpg&#10;#&#9;views/img/champion/loading/Sejuani_2.jpg&#10;#&#9;views/img/champion/loading/Sejuani_5.jpg&#10;#&#9;views/img/champion/loading/Shen_15.jpg&#10;#&#9;views/img/champion/loading/Shen_4.jpg&#10;#&#9;views/img/champion/loading/Singed_1.jpg&#10;#&#9;views/img/champion/loading/Singed_4.jpg&#10;#&#9;views/img/champion/loading/Singed_7.jpg&#10;#&#9;views/img/champion/loading/Sivir_1.jpg&#10;#&#9;views/img/champion/loading/Sona_2.jpg&#10;#&#9;views/img/champion/loading/Soraka_1.jpg&#10;#&#9;views/img/champion/loading/Swain_0.jpg&#10;#&#9;views/img/champion/loading/Swain_3.jpg&#10;#&#9;views/img/champion/loading/Syndra_2.jpg&#10;#&#9;views/img/champion/loading/Talon_0.jpg&#10;#&#9;views/img/champion/loading/Taric_2.jpg&#10;#&#9;views/img/champion/loading/Teemo_4.jpg&#10;#&#9;views/img/champion/loading/Teemo_7.jpg&#10;#&#9;views/img/champion/loading/Thresh_1.jpg&#10;#&#9;views/img/champion/loading/Thresh_4.jpg&#10;#&#9;views/img/champion/loading/Tristana_12.jpg&#10;#&#9;views/img/champion/loading/Tristana_4.jpg&#10;#&#9;views/img/champion/loading/Trundle_2.jpg&#10;#&#9;views/img/champion/loading/Trundle_5.jpg&#10;#&#9;views/img/champion/loading/Tryndamere_5.jpg&#10;#&#9;views/img/champion/loading/TwistedFate_1.jpg&#10;#&#9;views/img/champion/loading/TwistedFate_9.jpg&#10;#&#9;views/img/champion/loading/Twitch_0.jpg&#10;#&#9;views/img/champion/loading/Twitch_3.jpg&#10;#&#9;views/img/champion/loading/Twitch_6.jpg&#10;#&#9;views/img/champion/loading/Udyr_1.jpg&#10;#&#9;views/img/champion/loading/Varus_1.jpg&#10;#&#9;views/img/champion/loading/Varus_4.jpg&#10;#&#9;views/img/champion/loading/Vayne_11.jpg&#10;#&#9;views/img/champion/loading/Vayne_2.jpg&#10;#&#9;views/img/champion/loading/Veigar_0.jpg&#10;#&#9;views/img/champion/loading/Veigar_3.jpg&#10;#&#9;views/img/champion/loading/Veigar_6.jpg&#10;#&#9;views/img/champion/loading/Veigar_9.jpg&#10;#&#9;views/img/champion/loading/Vi_0.jpg&#10;#&#9;views/img/champion/loading/Vi_3.jpg&#10;#&#9;views/img/champion/loading/Vladimir_3.jpg&#10;#&#9;views/img/champion/loading/Vladimir_6.jpg&#10;#&#9;views/img/champion/loading/Volibear_0.jpg&#10;#&#9;views/img/champion/loading/Volibear_3.jpg&#10;#&#9;views/img/champion/loading/Warwick_0.jpg&#10;#&#9;views/img/champion/loading/Warwick_3.jpg&#10;#&#9;views/img/champion/loading/Warwick_6.jpg&#10;#&#9;views/img/champion/loading/Xayah_0.jpg&#10;#&#9;views/img/champion/loading/Xerath_2.jpg&#10;#&#9;views/img/champion/loading/Yasuo_1.jpg&#10;#&#9;views/img/champion/loading/Yasuo_9.jpg&#10;#&#9;views/img/champion/loading/Yorick_0.jpg&#10;#&#9;views/img/champion/loading/Zed_10.jpg&#10;#&#9;views/img/champion/loading/Zed_2.jpg&#10;#&#9;views/img/champion/loading/Ziggs_0.jpg&#10;#&#9;views/img/champion/loading/Ziggs_3.jpg&#10;#&#9;views/img/champion/loading/Ziggs_6.jpg&#10;#&#9;views/img/champion/loading/Zilean_4.jpg&#10;#&#9;views/img/champion/loading/Zoe_1.jpg&#10;#&#9;views/img/champion/loading/Zyra_4.jpg&#10;#&#9;views/img/champion/splash/Ahri_6.jpg&#10;#&#9;views/img/champion/splash/Ahri_7.jpg&#10;#&#9;views/img/champion/splash/Akali_0.jpg&#10;#&#9;views/img/champion/splash/Akali_3.jpg&#10;#&#9;views/img/champion/splash/Akali_8.jpg&#10;#&#9;views/img/champion/splash/Alistar_7.jpg&#10;#&#9;views/img/champion/splash/Amumu_7.jpg&#10;#&#9;views/img/champion/splash/Anivia_6.jpg&#10;#&#9;views/img/champion/splash/Annie_2.jpg&#10;#&#9;views/img/champion/splash/Annie_5.jpg&#10;#&#9;views/img/champion/splash/Annie_8.jpg&#10;#&#9;views/img/champion/splash/Ashe_2.jpg&#10;#&#9;views/img/champion/splash/Ashe_8.jpg&#10;#&#9;views/img/champion/splash/Azir_2.jpg&#10;#&#9;views/img/champion/splash/Azir_3.jpg&#10;#&#9;views/img/champion/splash/Bard_1.jpg&#10;#&#9;views/img/champion/splash/Bard_5.jpg&#10;#&#9;views/img/champion/splash/Bard_6.jpg&#10;#&#9;views/img/champion/splash/Blitzcrank_0.jpg&#10;#&#9;views/img/champion/splash/Brand_2.jpg&#10;#&#9;views/img/champion/splash/Brand_5.jpg&#10;#&#9;views/img/champion/splash/Braum_3.jpg&#10;#&#9;views/img/champion/splash/Caitlyn_0.jpg&#10;#&#9;views/img/champion/splash/Camille_1.jpg&#10;#&#9;views/img/champion/splash/Cassiopeia_0.jpg&#10;#&#9;views/img/champion/splash/Cassiopeia_3.jpg&#10;#&#9;views/img/champion/splash/Cassiopeia_8.jpg&#10;#&#9;views/img/champion/splash/Chogath_4.jpg&#10;#&#9;views/img/champion/splash/Corki_4.jpg&#10;#&#9;views/img/champion/splash/Darius_8.jpg&#10;#&#9;views/img/champion/splash/Diana_1.jpg&#10;#&#9;views/img/champion/splash/Diana_12.jpg&#10;#&#9;views/img/champion/splash/DrMundo_1.jpg&#10;#&#9;views/img/champion/splash/DrMundo_4.jpg&#10;#&#9;views/img/champion/splash/DrMundo_7.jpg&#10;#&#9;views/img/champion/splash/DrMundo_9.jpg&#10;#&#9;views/img/champion/splash/Draven_12.jpg&#10;#&#9;views/img/champion/splash/Draven_2.jpg&#10;#&#9;views/img/champion/splash/Ekko_1.jpg&#10;#&#9;views/img/champion/splash/Elise_1.jpg&#10;#&#9;views/img/champion/splash/Elise_4.jpg&#10;#&#9;views/img/champion/splash/Evelynn_2.jpg&#10;#&#9;views/img/champion/splash/Ezreal_18.jpg&#10;#&#9;views/img/champion/splash/Fiddlesticks_1.jpg&#10;#&#9;views/img/champion/splash/Fiora_1.jpg&#10;#&#9;views/img/champion/splash/Fiora_4.jpg&#10;#&#9;views/img/champion/splash/Fizz_2.jpg&#10;#&#9;views/img/champion/splash/Fizz_8.jpg&#10;#&#9;views/img/champion/splash/Gangplank_3.jpg&#10;#&#9;views/img/champion/splash/Gangplank_6.jpg&#10;#&#9;views/img/champion/splash/Garen_1.jpg&#10;#&#9;views/img/champion/splash/Gnar_4.jpg&#10;#&#9;views/img/champion/splash/Gragas_0.jpg&#10;#&#9;views/img/champion/splash/Gragas_3.jpg&#10;#&#9;views/img/champion/splash/Gragas_6.jpg&#10;#&#9;views/img/champion/splash/Gragas_7.jpg&#10;#&#9;views/img/champion/splash/Gragas_9.jpg&#10;#&#9;views/img/champion/splash/Graves_3.jpg&#10;#&#9;views/img/champion/splash/Graves_6.jpg&#10;#&#9;views/img/champion/splash/Hecarim_0.jpg&#10;#&#9;views/img/champion/splash/Hecarim_3.jpg&#10;#&#9;views/img/champion/splash/Illaoi_2.jpg&#10;#&#9;views/img/champion/splash/Irelia_2.jpg&#10;#&#9;views/img/champion/splash/Irelia_5.jpg&#10;#&#9;views/img/champion/splash/Ivern_1.jpg&#10;#&#9;views/img/champion/splash/Janna_0.jpg&#10;#&#9;views/img/champion/splash/Janna_5.jpg&#10;#&#9;views/img/champion/splash/Janna_8.jpg&#10;#&#9;views/img/champion/splash/JarvanIV_7.jpg&#10;#&#9;views/img/champion/splash/Jax_6.jpg&#10;#&#9;views/img/champion/splash/Jayce_2.jpg&#10;#&#9;views/img/champion/splash/Jinx_0.jpg&#10;#&#9;views/img/champion/splash/Jinx_12.jpg&#10;#&#9;views/img/champion/splash/Kaisa_0.jpg&#10;#&#9;views/img/champion/splash/Kalista_0.jpg&#10;#&#9;views/img/champion/splash/Kalista_3.jpg&#10;#&#9;views/img/champion/splash/Karma_0.jpg&#10;#&#9;views/img/champion/splash/Karma_3.jpg&#10;#&#9;views/img/champion/splash/Karma_6.jpg&#10;#&#9;views/img/champion/splash/Katarina_10.jpg&#10;#&#9;views/img/champion/splash/Katarina_2.jpg&#10;#&#9;views/img/champion/splash/Katarina_7.jpg&#10;#&#9;views/img/champion/splash/Kayle_7.jpg&#10;#&#9;views/img/champion/splash/Kayn_1.jpg&#10;#&#9;views/img/champion/splash/Kennen_2.jpg&#10;#&#9;views/img/champion/splash/Kennen_7.jpg&#10;#&#9;views/img/champion/splash/Khazix_4.jpg&#10;#&#9;views/img/champion/splash/Kled_0.jpg&#10;#&#9;views/img/champion/splash/KogMaw_0.jpg&#10;#&#9;views/img/champion/splash/KogMaw_10.jpg&#10;#&#9;views/img/champion/splash/KogMaw_3.jpg&#10;#&#9;views/img/champion/splash/KogMaw_6.jpg&#10;#&#9;views/img/champion/splash/Leblanc_2.jpg&#10;#&#9;views/img/champion/splash/LeeSin_0.jpg&#10;#&#9;views/img/champion/splash/LeeSin_3.jpg&#10;#&#9;views/img/champion/splash/Leona_0.jpg&#10;#&#9;views/img/champion/splash/Lissandra_0.jpg&#10;#&#9;views/img/champion/splash/Lissandra_3.jpg&#10;#&#9;views/img/champion/splash/Lucian_1.jpg&#10;#&#9;views/img/champion/splash/Maokai_3.jpg&#10;#&#9;views/img/champion/splash/Maokai_6.jpg&#10;#&#9;views/img/champion/splash/MissFortune_1.jpg&#10;#&#9;views/img/champion/splash/MissFortune_9.jpg&#10;#&#9;views/img/champion/splash/MonkeyKing_5.jpg&#10;#&#9;views/img/champion/splash/Mordekaiser_4.jpg&#10;#&#9;views/img/champion/splash/Nami_1.jpg&#10;#&#9;views/img/champion/splash/Nasus_5.jpg&#10;#&#9;views/img/champion/splash/Nautilus_5.jpg&#10;#&#9;views/img/champion/splash/Nidalee_1.jpg&#10;#&#9;views/img/champion/splash/Nidalee_6.jpg&#10;#&#9;views/img/champion/splash/Nocturne_1.jpg&#10;#&#9;views/img/champion/splash/Nocturne_4.jpg&#10;#&#9;views/img/champion/splash/Olaf_2.jpg&#10;#&#9;views/img/champion/splash/Olaf_5.jpg&#10;#&#9;views/img/champion/splash/Orianna_5.jpg&#10;#&#9;views/img/champion/splash/Ornn_0.jpg&#10;#&#9;views/img/champion/splash/Pantheon_8.jpg&#10;#&#9;views/img/champion/splash/Quinn_0.jpg&#10;#&#9;views/img/champion/splash/Quinn_3.jpg&#10;#&#9;views/img/champion/splash/Rakan_1.jpg&#10;#&#9;views/img/champion/splash/Rammus_6.jpg&#10;#&#9;views/img/champion/splash/Rammus_7.jpg&#10;#&#9;views/img/champion/splash/RekSai_2.jpg&#10;#&#9;views/img/champion/splash/Renekton_0.jpg&#10;#&#9;views/img/champion/splash/Renekton_3.jpg&#10;#&#9;views/img/champion/splash/Rengar_0.jpg&#10;#&#9;views/img/champion/splash/Riven_18.jpg&#10;#&#9;views/img/champion/splash/Riven_2.jpg&#10;#&#9;views/img/champion/splash/Rumble_1.jpg&#10;#&#9;views/img/champion/splash/Ryze_10.jpg&#10;#&#9;views/img/champion/splash/Ryze_4.jpg&#10;#&#9;views/img/champion/splash/Ryze_7.jpg&#10;#&#9;views/img/champion/splash/Sejuani_5.jpg&#10;#&#9;views/img/champion/splash/Shen_1.jpg&#10;#&#9;views/img/champion/splash/Shen_4.jpg&#10;#&#9;views/img/champion/splash/Shyvana_0.jpg&#10;#&#9;views/img/champion/splash/Shyvana_3.jpg&#10;#&#9;views/img/champion/splash/Shyvana_6.jpg&#10;#&#9;views/img/champion/splash/Singed_3.jpg&#10;#&#9;views/img/champion/splash/Singed_6.jpg&#10;#&#9;views/img/champion/splash/Singed_9.jpg&#10;#&#9;views/img/champion/splash/Sion_3.jpg&#10;#&#9;views/img/champion/splash/Sivir_6.jpg&#10;#&#9;views/img/champion/splash/Skarner_0.jpg&#10;#&#9;views/img/champion/splash/Skarner_3.jpg&#10;#&#9;views/img/champion/splash/Sona_0.jpg&#10;#&#9;views/img/champion/splash/Soraka_0.jpg&#10;#&#9;views/img/champion/splash/Swain_0.jpg&#10;#&#9;views/img/champion/splash/Syndra_4.jpg&#10;#&#9;views/img/champion/splash/TahmKench_1.jpg&#10;#&#9;views/img/champion/splash/Talon_2.jpg&#10;#&#9;views/img/champion/splash/Teemo_18.jpg&#10;#&#9;views/img/champion/splash/Teemo_4.jpg&#10;#&#9;views/img/champion/splash/Tristana_10.jpg&#10;#&#9;views/img/champion/splash/Trundle_3.jpg&#10;#&#9;views/img/champion/splash/Tryndamere_2.jpg&#10;#&#9;views/img/champion/splash/TwistedFate_0.jpg&#10;#&#9;views/img/champion/splash/Twitch_2.jpg&#10;#&#9;views/img/champion/splash/Twitch_5.jpg&#10;#&#9;views/img/champion/splash/Udyr_1.jpg&#10;#&#9;views/img/champion/splash/Udyr_4.jpg&#10;#&#9;views/img/champion/splash/Varus_1.jpg&#10;#&#9;views/img/champion/splash/Vayne_10.jpg&#10;#&#9;views/img/champion/splash/Vayne_2.jpg&#10;#&#9;views/img/champion/splash/Vayne_4.jpg&#10;#&#9;views/img/champion/splash/Veigar_2.jpg&#10;#&#9;views/img/champion/splash/Veigar_5.jpg&#10;#&#9;views/img/champion/splash/Veigar_8.jpg&#10;#&#9;views/img/champion/splash/Vi_2.jpg&#10;#&#9;views/img/champion/splash/Viktor_2.jpg&#10;#&#9;views/img/champion/splash/Vladimir_2.jpg&#10;#&#9;views/img/champion/splash/Vladimir_8.jpg&#10;#&#9;views/img/champion/splash/Xerath_1.jpg&#10;#&#9;views/img/champion/splash/Xerath_4.jpg&#10;#&#9;views/img/champion/splash/XinZhao_1.jpg&#10;#&#9;views/img/champion/splash/XinZhao_4.jpg&#10;#&#9;views/img/champion/splash/Yasuo_9.jpg&#10;#&#9;views/img/champion/splash/Zac_2.jpg&#10;#&#9;views/img/champion/splash/Zed_0.jpg&#10;#&#9;views/img/champion/splash/Zed_10.jpg&#10;#&#9;views/img/champion/splash/Zed_3.jpg&#10;#&#9;views/img/champion/splash/Ziggs_3.jpg&#10;#&#9;views/img/champion/splash/Zilean_4.jpg&#10;#&#9;views/img/champion/splash/Zyra_1.jpg&#10;#&#9;views/img/champion/splash/Zyra_4.jpg&#10;#&#9;views/img/champion/tiles/aatrox_0.jpg&#10;#&#9;views/img/champion/tiles/ahri_1.jpg&#10;#&#9;views/img/champion/tiles/ahri_4.jpg&#10;#&#9;views/img/champion/tiles/akali_1.jpg&#10;#&#9;views/img/champion/tiles/alistar_2.jpg&#10;#&#9;views/img/champion/tiles/alistar_8.jpg&#10;#&#9;views/img/champion/tiles/amumu_0.jpg&#10;#&#9;views/img/champion/tiles/amumu_3.jpg&#10;#&#9;views/img/champion/tiles/amumu_6.jpg&#10;#&#9;views/img/champion/tiles/anivia_4.jpg&#10;#&#9;views/img/champion/tiles/annie_10.jpg&#10;#&#9;views/img/champion/tiles/annie_3.jpg&#10;#&#9;views/img/champion/tiles/annie_6.jpg&#10;#&#9;views/img/champion/tiles/annie_9.jpg&#10;#&#9;views/img/champion/tiles/ashe_4.jpg&#10;#&#9;views/img/champion/tiles/ashe_9.jpg&#10;#&#9;views/img/champion/tiles/aurelionsol_0.jpg&#10;#&#9;views/img/champion/tiles/blitzcrank_0.jpg&#10;#&#9;views/img/champion/tiles/blitzcrank_11.jpg&#10;#&#9;views/img/champion/tiles/blitzcrank_6.jpg&#10;#&#9;views/img/champion/tiles/brand_6.jpg&#10;#&#9;views/img/champion/tiles/braum_1.jpg&#10;#&#9;views/img/champion/tiles/braum_10.jpg&#10;#&#9;views/img/champion/tiles/caitlyn_3.jpg&#10;#&#9;views/img/champion/tiles/caitlyn_6.jpg&#10;#&#9;views/img/champion/tiles/cassiopeia_0.jpg&#10;#&#9;views/img/champion/tiles/cassiopeia_3.jpg&#10;#&#9;views/img/champion/tiles/chogath_0.jpg&#10;#&#9;views/img/champion/tiles/chogath_2.jpg&#10;#&#9;views/img/champion/tiles/chogath_5.jpg&#10;#&#9;views/img/champion/tiles/corki_5.jpg&#10;#&#9;views/img/champion/tiles/darius_1.jpg&#10;#&#9;views/img/champion/tiles/diana_2.jpg&#10;#&#9;views/img/champion/tiles/draven_0.jpg&#10;#&#9;views/img/champion/tiles/drmundo_2.jpg&#10;#&#9;views/img/champion/tiles/drmundo_5.jpg&#10;#&#9;views/img/champion/tiles/ekko_0.jpg&#10;#&#9;views/img/champion/tiles/ekko_3.jpg&#10;#&#9;views/img/champion/tiles/elise_5.jpg&#10;#&#9;views/img/champion/tiles/ezreal_0.jpg&#10;#&#9;views/img/champion/tiles/ezreal_18.jpg&#10;#&#9;views/img/champion/tiles/ezreal_6.jpg&#10;#&#9;views/img/champion/tiles/fiddlesticks_2.jpg&#10;#&#9;views/img/champion/tiles/fiddlesticks_5.jpg&#10;#&#9;views/img/champion/tiles/fiora_2.jpg&#10;#&#9;views/img/champion/tiles/fiora_5.jpg&#10;#&#9;views/img/champion/tiles/galio_4.jpg&#10;#&#9;views/img/champion/tiles/garen_10.jpg&#10;#&#9;views/img/champion/tiles/garen_4.jpg&#10;#&#9;views/img/champion/tiles/gnar_13.jpg&#10;#&#9;views/img/champion/tiles/gragas_1.jpg&#10;#&#9;views/img/champion/tiles/gragas_4.jpg&#10;#&#9;views/img/champion/tiles/graves_7.jpg&#10;#&#9;views/img/champion/tiles/hecarim_4.jpg&#10;#&#9;views/img/champion/tiles/heimerdinger_1.jpg&#10;#&#9;views/img/champion/tiles/heimerdinger_4.jpg&#10;#&#9;views/img/champion/tiles/illaoi_0.jpg&#10;#&#9;views/img/champion/tiles/irelia_0.jpg&#10;#&#9;views/img/champion/tiles/janna_6.jpg&#10;#&#9;views/img/champion/tiles/jarvaniv_0.jpg&#10;#&#9;views/img/champion/tiles/jax_12.jpg&#10;#&#9;views/img/champion/tiles/jax_3.jpg&#10;#&#9;views/img/champion/tiles/jax_6.jpg&#10;#&#9;views/img/champion/tiles/jayce_0.jpg&#10;#&#9;views/img/champion/tiles/jayce_3.jpg&#10;#&#9;views/img/champion/tiles/jhin_4.jpg&#10;#&#9;views/img/champion/tiles/jinx_2.jpg&#10;#&#9;views/img/champion/tiles/kaisa_1.jpg&#10;#&#9;views/img/champion/tiles/karma_1.jpg&#10;#&#9;views/img/champion/tiles/karma_4.jpg&#10;#&#9;views/img/champion/tiles/karthus_0.jpg&#10;#&#9;views/img/champion/tiles/karthus_3.jpg&#10;#&#9;views/img/champion/tiles/kassadin_0.jpg&#10;#&#9;views/img/champion/tiles/katarina_0.jpg&#10;#&#9;views/img/champion/tiles/katarina_3.jpg&#10;#&#9;views/img/champion/tiles/katarina_6.jpg&#10;#&#9;views/img/champion/tiles/kayle_2.jpg&#10;#&#9;views/img/champion/tiles/kayle_5.jpg&#10;#&#9;views/img/champion/tiles/kayle_8.jpg&#10;#&#9;views/img/champion/tiles/kayn_0.jpg&#10;#&#9;views/img/champion/tiles/kennen_0.jpg&#10;#&#9;views/img/champion/tiles/kennen_3.jpg&#10;#&#9;views/img/champion/tiles/khazix_2.jpg&#10;#&#9;views/img/champion/tiles/kogmaw_1.jpg&#10;#&#9;views/img/champion/tiles/kogmaw_7.jpg&#10;#&#9;views/img/champion/tiles/leblanc_3.jpg&#10;#&#9;views/img/champion/tiles/leesin_1.jpg&#10;#&#9;views/img/champion/tiles/leesin_4.jpg&#10;#&#9;views/img/champion/tiles/leona_4.jpg&#10;#&#9;views/img/champion/tiles/lissandra_0.jpg&#10;#&#9;views/img/champion/tiles/lucian_2.jpg&#10;#&#9;views/img/champion/tiles/lulu_1.jpg&#10;#&#9;views/img/champion/tiles/lulu_4.jpg&#10;#&#9;views/img/champion/tiles/lux_5.jpg&#10;#&#9;views/img/champion/tiles/lux_8.jpg&#10;#&#9;views/img/champion/tiles/malzahar_0.jpg&#10;#&#9;views/img/champion/tiles/maokai_1.jpg&#10;#&#9;views/img/champion/tiles/maokai_7.jpg&#10;#&#9;views/img/champion/tiles/masteryi_4.jpg&#10;#&#9;views/img/champion/tiles/missfortune_5.jpg&#10;#&#9;views/img/champion/tiles/monkeyking_0.jpg&#10;#&#9;views/img/champion/tiles/monkeyking_5.jpg&#10;#&#9;views/img/champion/tiles/mordekaiser_0.jpg&#10;#&#9;views/img/champion/tiles/mordekaiser_3.jpg&#10;#&#9;views/img/champion/tiles/nasus_4.jpg&#10;#&#9;views/img/champion/tiles/nautilus_3.jpg&#10;#&#9;views/img/champion/tiles/nidalee_2.jpg&#10;#&#9;views/img/champion/tiles/nocturne_5.jpg&#10;#&#9;views/img/champion/tiles/nunu_2.jpg&#10;#&#9;views/img/champion/tiles/olaf_1.jpg&#10;#&#9;views/img/champion/tiles/olaf_4.jpg&#10;#&#9;views/img/champion/tiles/orianna_0.jpg&#10;#&#9;views/img/champion/tiles/pantheon_6.jpg&#10;#&#9;views/img/champion/tiles/poppy_1.jpg&#10;#&#9;views/img/champion/tiles/poppy_4.jpg&#10;#&#9;views/img/champion/tiles/pyke_1.jpg&#10;#&#9;views/img/champion/tiles/rammus_1.jpg&#10;#&#9;views/img/champion/tiles/rammus_7.jpg&#10;#&#9;views/img/champion/tiles/reksai_0.jpg&#10;#&#9;views/img/champion/tiles/renekton_7.jpg&#10;#&#9;views/img/champion/tiles/rengar_1.jpg&#10;#&#9;views/img/champion/tiles/riven_16.jpg&#10;#&#9;views/img/champion/tiles/riven_5.jpg&#10;#&#9;views/img/champion/tiles/ryze_3.jpg&#10;#&#9;views/img/champion/tiles/ryze_6.jpg&#10;#&#9;views/img/champion/tiles/sejuani_1.jpg&#10;#&#9;views/img/champion/tiles/sejuani_6.jpg&#10;#&#9;views/img/champion/tiles/shaco_2.jpg&#10;#&#9;views/img/champion/tiles/shen_0.jpg&#10;#&#9;views/img/champion/tiles/shen_3.jpg&#10;#&#9;views/img/champion/tiles/shyvana_1.jpg&#10;#&#9;views/img/champion/tiles/singed_4.jpg&#10;#&#9;views/img/champion/tiles/singed_7.jpg&#10;#&#9;views/img/champion/tiles/sion_5.jpg&#10;#&#9;views/img/champion/tiles/sivir_1.jpg&#10;#&#9;views/img/champion/tiles/sivir_4.jpg&#10;#&#9;views/img/champion/tiles/sivir_7.jpg&#10;#&#9;views/img/champion/tiles/skarner_1.jpg&#10;#&#9;views/img/champion/tiles/sona_7.jpg&#10;#&#9;views/img/champion/tiles/soraka_1.jpg&#10;#&#9;views/img/champion/tiles/soraka_4.jpg&#10;#&#9;views/img/champion/tiles/syndra_5.jpg&#10;#&#9;views/img/champion/tiles/tahmkench_1.jpg&#10;#&#9;views/img/champion/tiles/taliyah_1.jpg&#10;#&#9;views/img/champion/tiles/talon_0.jpg&#10;#&#9;views/img/champion/tiles/talon_3.jpg&#10;#&#9;views/img/champion/tiles/taric_2.jpg&#10;#&#9;views/img/champion/tiles/teemo_2.jpg&#10;#&#9;views/img/champion/tiles/teemo_7.jpg&#10;#&#9;views/img/champion/tiles/tristana_2.jpg&#10;#&#9;views/img/champion/tiles/tristana_5.jpg&#10;#&#9;views/img/champion/tiles/trundle_3.jpg&#10;#&#9;views/img/champion/tiles/twistedfate_2.jpg&#10;#&#9;views/img/champion/tiles/twistedfate_5.jpg&#10;#&#9;views/img/champion/tiles/twistedfate_7.jpg&#10;#&#9;views/img/champion/tiles/twitch_3.jpg&#10;#&#9;views/img/champion/tiles/udyr_0.jpg&#10;#&#9;views/img/champion/tiles/udyr_3.jpg&#10;#&#9;views/img/champion/tiles/urgot_0.jpg&#10;#&#9;views/img/champion/tiles/urgot_3.jpg&#10;#&#9;views/img/champion/tiles/varus_4.jpg&#10;#&#9;views/img/champion/tiles/varus_7.jpg&#10;#&#9;views/img/champion/tiles/vayne_0.jpg&#10;#&#9;views/img/champion/tiles/vayne_11.jpg&#10;#&#9;views/img/champion/tiles/veigar_3.jpg&#10;#&#9;views/img/champion/tiles/veigar_6.jpg&#10;#&#9;views/img/champion/tiles/viktor_3.jpg&#10;#&#9;views/img/champion/tiles/vladimir_1.jpg&#10;#&#9;views/img/champion/tiles/warwick_1.jpg&#10;#&#9;views/img/champion/tiles/warwick_4.jpg&#10;#&#9;views/img/champion/tiles/warwick_7.jpg&#10;#&#9;views/img/champion/tiles/xerath_2.jpg&#10;#&#9;views/img/champion/tiles/xinzhao_13.jpg&#10;#&#9;views/img/champion/tiles/xinzhao_5.jpg&#10;#&#9;views/img/champion/tiles/yorick_0.jpg&#10;#&#9;views/img/champion/tiles/yorick_3.jpg&#10;#&#9;views/img/champion/tiles/zed_2.jpg&#10;#&#9;views/img/champion/tiles/ziggs_6.jpg&#10;#&#9;views/img/champion/tiles/zilean_2.jpg&#10;#&#9;views/img/champion/tiles/zyra_0.jpg&#10;#&#9;views/img/champion/tiles/zyra_3.jpg">
+      <created>1528220267063</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1528220267063</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="hive - 2018.06.03 at 17h 38m 52s.xml">
+      <configuration name="hive" configurationId="PHPUnitRunConfigurationType" />
+    </history-entry>
+  </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28826000" />
+    <option name="totallyTimeSpent" value="49022000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -433,51 +334,30 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
     <layout>
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.18045112" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37806302" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39954853" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Inspection Results" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3295711" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
-    <layout-to-restore>
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32979852" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="combo" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
-    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -500,147 +380,58 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/usuarios.sql">
+    <entry file="file://$PROJECT_DIR$/versus.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="799">
-          <caret line="70" column="63" lean-forward="false" selection-start-line="29" selection-start-column="0" selection-end-line="70" selection-end-column="63" />
+        <state relative-caret-position="756">
+          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/css/bootstraps.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2268">
+          <caret line="9" column="0" lean-forward="true" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2499">
+          <caret line="119" column="13" lean-forward="true" selection-start-line="116" selection-start-column="3" selection-end-line="119" selection-end-column="13" />
           <folding>
-            <marker date="1527894972006" expanded="true" signature="303:367" ph="/*!40101 SET... " />
-            <marker date="1527894972006" expanded="true" signature="369:435" ph="/*!40101 SET... " />
-            <marker date="1527894972006" expanded="true" signature="437:501" ph="/*!40101 SET... " />
-            <marker date="1527894972006" expanded="true" signature="503:532" ph="/*!40101 SET... " />
-            <marker date="1527894972006" expanded="true" signature="673:898" ph="CREATE TABLE... usuarios" />
-            <marker date="1527894972006" expanded="true" signature="945:1195" ph="INSERT INTO `usuarios`... " />
-            <marker date="1527894972006" expanded="true" signature="1272:1361" ph="ALTER TABLE `usuarios`... " />
-            <marker date="1527894972006" expanded="true" signature="1452:1538" ph="ALTER TABLE `usuarios`... " />
-            <marker date="1527894972006" expanded="true" signature="1549:1611" ph="/*!40101 SET... " />
-            <marker date="1527894972006" expanded="true" signature="1613:1677" ph="/*!40101 SET... " />
-            <marker date="1527894972006" expanded="true" signature="1679:1741" ph="/*!40101 SET... " />
+            <marker date="1528197031083" expanded="true" signature="584:682" ph="SELECT * FRO... usuarios" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c7010cac-5f29-4890-8dda-044d4da36180/console.sql">
+    <entry file="file://$PROJECT_DIR$/register.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="646">
-          <caret line="38" column="0" lean-forward="false" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/champs.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Downloads/champs.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="56" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/index2.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/static_data/items.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="861">
-          <caret line="1676" column="1" lean-forward="false" selection-start-line="1676" selection-start-column="1" selection-end-line="1676" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../comprimir/templates/vs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../comprimir/templates/vs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="35" column="5" lean-forward="false" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recomended.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+        <state relative-caret-position="4536">
+          <caret line="216" column="20" lean-forward="true" selection-start-line="216" selection-start-column="20" selection-end-line="216" selection-end-column="20" />
           <folding>
-            <marker date="1527972439570" expanded="true" signature="1043:1176" ph="..." />
-            <marker date="1527972439570" expanded="true" signature="1071:1176" ph="..." />
-            <marker date="1527972439570" expanded="true" signature="1153:1176" ph="..." />
+            <marker date="1528195835985" expanded="true" signature="1467:1593" ph="INSERT INTO usuarios... " />
+            <marker date="1528195835985" expanded="true" signature="1773:1928" ph="..." />
+            <marker date="1528195835985" expanded="false" signature="1848:1855" ph="×" />
+            <marker date="1528195835985" expanded="true" signature="2096:2255" ph="..." />
+            <marker date="1528195835985" expanded="false" signature="2171:2178" ph="×" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/recomended.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="559">
-          <caret line="698" column="29" lean-forward="false" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../Hive-Proyect/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/dbconnect.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="0" column="5" lean-forward="false" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="5" />
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/controller/api_functions.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="33" column="8" lean-forward="false" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/templates/vs/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="50" lean-forward="false" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/views/templates/vs/index.html" />
     <entry file="file://$PROJECT_DIR$/views/css/reset.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -648,31 +439,318 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/model/static_data/items_v3.csv">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/css/vs.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="283">
+        <state relative-caret-position="672">
           <caret line="32" column="22" lean-forward="false" selection-start-line="32" selection-start-column="22" selection-end-line="32" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/c7010cac-5f29-4890-8dda-044d4da36180/console.sql" />
+    <entry file="file://$USER_HOME$/Desktop/champs.csv" />
+    <entry file="file://$USER_HOME$/Downloads/champs.sql" />
+    <entry file="file://$PROJECT_DIR$/index2.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static_data/items.json" />
+    <entry file="file://$PROJECT_DIR$/../comprimir/templates/vs/index.html" />
+    <entry file="file://$PROJECT_DIR$/../comprimir/templates/vs/index.html" />
+    <entry file="file://$PROJECT_DIR$/recomended.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="559">
+          <caret line="698" column="29" lean-forward="false" selection-start-line="698" selection-start-column="29" selection-end-line="698" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../Hive-Proyect/index.php" />
+    <entry file="file://$PROJECT_DIR$/controller/api_functions.php" />
+    <entry file="file://$PROJECT_DIR$/model/static_data/items_v3.csv">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/css/reset.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/templates/vs/index.html" />
+    <entry file="file://$PROJECT_DIR$/views/css/carousel.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/phpstorm.jar!/resources/html5-schema/html5/structural.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="115" column="16" lean-forward="false" selection-start-line="115" selection-start-column="16" selection-end-line="115" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1794">
+          <caret line="100" column="28" lean-forward="false" selection-start-line="100" selection-start-column="28" selection-end-line="100" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/js/jquery-1.10.2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="277">
+          <caret line="7553" column="14" lean-forward="false" selection-start-line="7553" selection-start-column="14" selection-end-line="7553" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/css/bootstraps.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="657">
+          <caret line="9" column="0" lean-forward="false" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/css/bootstrap.min.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="268">
+          <caret line="5" column="67523" lean-forward="true" selection-start-line="5" selection-start-column="67412" selection-end-line="5" selection-end-column="67523" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/img/vs/vs.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/user_info/user_radamanthiss.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/user_info/user_s.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/user_info/user_32998717_spectator.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="211" lean-forward="false" selection-start-line="0" selection-start-column="199" selection-end-line="0" selection-end-column="211" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/user_info/user_AfheeKillerLOL.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/summoner.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/versus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2390">
+          <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/register.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="161" column="14" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="221" selection-end-column="9" />
+          <folding>
+            <marker date="1528195835985" expanded="true" signature="1467:1593" ph="INSERT INTO usuarios... " />
+            <marker date="1528195835985" expanded="true" signature="1773:1928" ph="..." />
+            <marker date="1528195835985" expanded="false" signature="1848:1855" ph="×" />
+            <marker date="1528195835985" expanded="true" signature="2096:2255" ph="..." />
+            <marker date="1528195835985" expanded="false" signature="2171:2178" ph="×" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/templates/vs/data.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-612">
+          <caret line="21" column="50" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="82" selection-end-column="7" />
+          <folding>
+            <marker date="1528193845436" expanded="true" signature="1293:1370" ph="SELECT champ... campeones" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/recomended.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2037">
+          <caret line="102" column="41" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding>
+            <marker date="1528196904135" expanded="true" signature="3010:3073" ph="INSERT INTO recomendacion... " />
+            <marker date="1528196904135" expanded="true" signature="3010:3091" ph="INSERT INTO recomendacion... " />
+            <marker date="1528196904135" expanded="true" signature="3010:3110" ph="INSERT INTO recomendacion... " />
+            <marker date="1528196904135" expanded="true" signature="3010:3122" ph="INSERT INTO recomendacion... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-462">
+          <caret line="23" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="132" selection-end-column="0" />
+          <folding>
+            <marker date="1528197031083" expanded="true" signature="584:682" ph="SELECT * FRO... usuarios" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logout.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="31" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="13" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dbconnect.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="2" lean-forward="true" selection-start-line="3" selection-start-column="2" selection-end-line="3" selection-end-column="2" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/templates/vs/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="0" lean-forward="false" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/js/vs.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/controller/user_functions.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="39" column="51" lean-forward="false" selection-start-line="39" selection-start-column="51" selection-end-line="39" selection-end-column="51" />
+        <state relative-caret-position="-1196">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/css/vs.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="34" column="19" lean-forward="false" selection-start-line="34" selection-start-column="19" selection-end-line="34" selection-end-column="19" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/sql/usuarios.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="18" lean-forward="true" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/sql/campeones.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="186" selection-end-column="0" />
+          <folding>
+            <marker date="1528197486844" expanded="true" signature="303:367" ph="/*!40101 SET... " />
+            <marker date="1528197486844" expanded="true" signature="369:435" ph="/*!40101 SET... " />
+            <marker date="1528197486844" expanded="true" signature="437:501" ph="/*!40101 SET... " />
+            <marker date="1528197486844" expanded="true" signature="503:532" ph="/*!40101 SET... " />
+            <marker date="1528197486844" expanded="true" signature="674:851" ph="CREATE TABLE... campeones" />
+            <marker date="1528197486844" expanded="true" signature="899:3404" ph="INSERT INTO `campeones`... " />
+            <marker date="1528197486844" expanded="true" signature="3415:3477" ph="/*!40101 SET... " />
+            <marker date="1528197486844" expanded="true" signature="3479:3543" ph="/*!40101 SET... " />
+            <marker date="1528197486844" expanded="true" signature="3545:3607" ph="/*!40101 SET... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/sql/objetos.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="2" lean-forward="false" selection-start-line="0" selection-start-column="2" selection-end-line="333" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/sql/tipos.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="71" selection-end-column="0" />
+          <folding>
+            <marker date="1528197514263" expanded="true" signature="303:367" ph="/*!40101 SET... " />
+            <marker date="1528197514263" expanded="true" signature="369:435" ph="/*!40101 SET... " />
+            <marker date="1528197514263" expanded="true" signature="437:501" ph="/*!40101 SET... " />
+            <marker date="1528197514263" expanded="true" signature="503:532" ph="/*!40101 SET... " />
+            <marker date="1528197514263" expanded="true" signature="670:791" ph="CREATE TABLE... tipos" />
+            <marker date="1528197514263" expanded="true" signature="835:1192" ph="INSERT INTO `tipos`... " />
+            <marker date="1528197514263" expanded="true" signature="1266:1315" ph="ALTER TABLE `tipos`... " />
+            <marker date="1528197514263" expanded="true" signature="1326:1388" ph="/*!40101 SET... " />
+            <marker date="1528197514263" expanded="true" signature="1390:1454" ph="/*!40101 SET... " />
+            <marker date="1528197514263" expanded="true" signature="1456:1518" ph="/*!40101 SET... " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/model/sql/recomendacion.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
+          <folding>
+            <marker date="1528197500195" expanded="true" signature="303:367" ph="/*!40101 SET... " />
+            <marker date="1528197500195" expanded="true" signature="369:435" ph="/*!40101 SET... " />
+            <marker date="1528197500195" expanded="true" signature="437:501" ph="/*!40101 SET... " />
+            <marker date="1528197500195" expanded="true" signature="503:532" ph="/*!40101 SET... " />
+            <marker date="1528197500195" expanded="true" signature="678:874" ph="CREATE TABLE... recomendacion" />
+            <marker date="1528197500195" expanded="true" signature="926:56162" ph="INSERT INTO `recomendacion`... " />
+            <marker date="1528197500195" expanded="true" signature="56164:72722" ph="INSERT INTO `recomendacion`... " />
+            <marker date="1528197500195" expanded="true" signature="72804:72868" ph="ALTER TABLE `recomendacion`... " />
+            <marker date="1528197500195" expanded="true" signature="72964:73070" ph="ALTER TABLE `recomendacion`... " />
+            <marker date="1528197500195" expanded="true" signature="73081:73143" ph="/*!40101 SET... " />
+            <marker date="1528197500195" expanded="true" signature="73145:73209" ph="/*!40101 SET... " />
+            <marker date="1528197500195" expanded="true" signature="73211:73273" ph="/*!40101 SET... " />
+          </folding>
         </state>
       </provider>
     </entry>
